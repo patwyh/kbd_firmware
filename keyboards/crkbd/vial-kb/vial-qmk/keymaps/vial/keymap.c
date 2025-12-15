@@ -1,13 +1,5 @@
 #include QMK_KEYBOARD_H
 
-// Pointing Device User Config (optional overrides)
-pointing_device_info_t pointing_device_task_cb(void) {
-    // Custom processing if needed; defaults handle deltas
-    pointing_device_info_t info = pointing_device_get_info();
-    // Example: Invert Y-axis if desired
-    info.y = -info.y;
-    return info;
-}
 
 #ifdef LAYOUT_split_3x6_3_ex2
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
