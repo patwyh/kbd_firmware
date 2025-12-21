@@ -33,10 +33,16 @@
             [  null,   null,   null, "GP14", "GP15", "GP11",   null]
         ]
     },
+    // "encoder": {
+    //     "rotary": [
+    //         {"pin_a": "GP5", "pin_b": "GP7"},
+    //         {"pin_a": "GP6", "pin_b": "GP7"}
+    //     ]
+    // },
     "encoder": {
         "rotary": [
-            {"pin_a": "GP5", "pin_b": "GP7"},
-            {"pin_a": "GP6", "pin_b": "GP7"}
+            {"pin_a": "GP5", "pin_b": "GP5"},
+            {"pin_a": "GP5", "pin_b": "GP5"}
         ]
     },
     "bootmagic": {
@@ -79,11 +85,19 @@
         //         ]
         //     }
         // },
+        // "encoder": {
+        //     "right": {
+        //         "rotary": [
+        //             {"pin_a": "GP5", "pin_b":  "GP7"},
+        //             {"pin_a":  "GP6", "pin_b":  "GP7"}
+        //         ]
+        //     }
+        // },
         "encoder": {
             "right": {
                 "rotary": [
-                    {"pin_a": "GP5", "pin_b":  "GP7"},
-                    {"pin_a":  "GP6", "pin_b":  "GP7"}
+                    {"pin_a": "GP5", "pin_b": "GP5"},
+                    {"pin_a": "GP5", "pin_b": "GP5"}
                 ]
             }
         },
