@@ -4,3 +4,6 @@
 
 #undef RP_I2C_USE_I2C1
 #define RP_I2C_USE_I2C1 TRUE
+
+#undef RP2040_SPI_USE_SPI0
+#define RP2040_SPI_USE_SPI0 TRUE
